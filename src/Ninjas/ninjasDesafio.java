@@ -19,7 +19,7 @@ public class ninjasDesafio {
             System.out.println("O status da missão é: " + statusMissoes[i]);
 
             // Verifica se a idade é maior que 17 e se a missão foi um sucesso ou falhou
-            if (idadesNinjas[i] >= 17 || (statusMissoes[i].equals("Sucesso") && statusMissoes[i].equals("Falhou"))) {
+            if (idadesNinjas[i] >= 17 || statusMissoes[i].equals("Sucesso")) {
                 System.out.println("O(A) ninja " + nomesNinjas[i] + " tem 17 anos ou mais e a missão foi um " + statusMissoes[i] + ".");
             } else {
                 System.out.println("O(A) ninja " + nomesNinjas[i] + " não tem idade para missão, e a missão falhou automaticamente.");
